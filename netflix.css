@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main {
+    background-image: url(img/background.jpg);
+    background-position: center center;
+    background-size: max(1200px, 125vw);
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+}
+
+.main .box {
+    height: 400vh;
+    width: 100%;
+    opacity: 0.7;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+
+nav {
+    max-width: 75vw;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+}
+
+nav img {
+    color: red;
+    width: 150px;
+    position: relative;
+    z-index: 10;
+
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+
+
+}
+
+.hero {
+    font-family: 'Martel Sans', sans-serif;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 17px;
+    padding: 25px;
+}
+
+.hero>:nth-child(1) {
+    font-weight: 1000;
+    font-size: 42px;
+}
+
+.hero>:nth-child(2) {
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.hero>:nth-child(3) {
+    font-size: 22px;
+    font-weight: 400;
+}
+
+body {
+    background-color: black;
+}
+
+
+.btn {
+    padding: 3px 8px;
+    font-weight: 400;
+    color: white;
+    background-color: rgba(248, 243, 243, 0.021);
+    border-radius: 4px;
+    border: 1px solid white;
+    cursor: pointer;
+
+}
+
+.btn-red {
+    background-color: red;
+    color: white;
+    padding: 9px 50px;
+    font-size: 20px;
+    border-radius: 4px;
+    font-weight: 700;
+    border-color: red;
+
+}
+
+.main input {
+    padding: 9px 90px 10px 11px;
+    font-size: 16px;
+    border-radius: 4px;
+    background-color: rgba(23, 23, 23, 0.9);
+    font-weight: 700;
+    border-color: white;
+    color: white;
+
+
+}
+
+
+.btn-red-sm {
+    background-color: red;
+    color: white;
+    border-color: red;
+    padding: 2px 4px;
+
+
+}
+
+
+.hero-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.secImg {
+    position: relative;
+
+}
+
+.secImg img {
+    width: 520px;
+    position: relative;
+    z-index: 10;
+
+}
+
+.secImg video {
+    position: absolute;
+    top: 70px;
+    right: 0px;
+    width: 456px;
+
+}
+
+section.first>div {
+    display: flex;
+    flex-direction: column;
+    padding: 34px 0px;
+}
+
+section.first>div :nth-child(1) {
+    font-size: 45px;
+    font-weight: bolder;
+    color: white;
+    filter: brightness(100%);
+}
+
+section.first>div :nth-child(2) {
+    font-size: 22px;
+    color: white;
+    filter: brightness(100%);
+}
+
+.line {
+    background-color: gray;
+    height: 8px;
+    width: 100%;
+}
+
+.secImgi {
+    position: relative;
+
+}
+
+.secImgi img {
+    width: 520px;
+    position: relative;
+    z-index: 10;
+
+}
+
+.secImgi video {
+    position: absolute;
+    top: 60px;
+    right: 0px;
+    width: 330px;
+    left: 95px;
+}
+
+.faq h2 {
+    text-align: center;
+    font-size: 48px;
+}
+
+.faq {
+    background: black;
+    color: white;
+    padding: 34px;
+    filter: brightness(100%);
+}
+
+.faqbox:hover {
+    background-color: #414141;
+    color: white;
+}
+
+.faqbox svg {
+    filter: invert(1);
+}
+
+.faqbox {
+    transition: all 1s ease-out;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #2d2d2d;
+    padding: 20px;
+    max-width: 60vw;
+    margin: 34px auto;
+    cursor: pointer;
+}
+
+p {
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px;
+}
+
+footer {
+    color: white;
+    margin: auto;
+    max-width: 60vw;
+    padding: 15px;
+
+
+}
+
+footer .ques {
+    padding: 34px 0px;
+    filter: brightness(100%);
+
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 120px;
+    bottom: 0;
+
+
+}
+
+.footer-item {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    gap: 25px;
+    filter: brightness(80%);
+
+}
+
+.footer a {
+    color: white;
+}
+
+footer .me {
+    padding: 5px 5px;
+    margin: 25px 50px 20px 0px;
+}
+
+
+
+@media screen and (max-width:1300px) {
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+}
